@@ -1,0 +1,46 @@
+.heading{
+    font-size: 23px;
+    width:100%;
+    margin: 0;
+    font-family: 'Satisfy', cursive;
+}
+.note{
+    font-size: 18px;
+    color: black;
+    font-family: 'Poiret One', cursive;
+}
+body{
+    background-size:cover;
+}
+.div_speed{
+    float: left;
+}
+.speed_img,.volume_img{
+    width: 200px;
+    border-radius: 100px;
+    margin: 10px;
+}
+#speed,#volume{
+    font-size: 20px;
+    margin: 15px;
+}
+.div_volume{
+    float: right;
+}
+.btn-success{
+    font-size: 20px;
+    width: 150px;
+    margin-top:20px ;
+    font-family: 'Poiret One', cursive;
+}
+@keyframes example{
+    0%{box-shadow: 0px 0px 100px #ff1dc7;}
+    50%{box-shadow: 0px 0px 100px #fbff28;}
+    100%{box-shadow: 0px 0px 100px #ff1dc7;}
+}
+canvas{
+    border: 5px white solid;
+    animation-name:example ;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
